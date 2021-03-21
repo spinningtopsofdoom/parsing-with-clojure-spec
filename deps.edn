@@ -1,0 +1,7 @@
+{:paths ["src"]
+ :deps  {org.clojure/clojure {:mvn/version "1.10.2"}}
+ :aliases
+        {:socket {:jvm-opts ["-Dclojure.server.repl={:port,50505,:accept,clojure.core.server/repl}"]}
+         :spec   {:extra-deps {org.clojure/test.check {:mvn/version "0.9.0"}
+                               org.clojure/alpha.spec {:git/url "https://github.com/clojure/spec-alpha2.git"
+                                                       :sha     "253204016026a259fef5d62702cd6562273af737"}}}}}
