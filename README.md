@@ -13,3 +13,7 @@ on the part of the parser is failing and slowly accrete functionality will be de
 ## Limitations and Edge Cases
 
 The sharp corners and limitations of Clojure Spec parsing will be gone over.
+
+## Setup
+
+Start the repl with Clojure Deps  by `clj -A:socket:spec` . This will start a socket repl at `localhost:50505`
